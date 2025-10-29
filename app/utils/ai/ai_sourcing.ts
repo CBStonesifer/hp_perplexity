@@ -132,6 +132,6 @@ Make sure to use the search tool with limit=10 to get comprehensive results.`,
 
     return {
         title: query,
-        sources: sources.slice(0, 4),
+        sources: sources.slice(0, 3),
     }
 }

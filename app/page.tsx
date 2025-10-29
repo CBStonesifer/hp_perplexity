@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import ReactMarkdown from "react-markdown";
 
 interface Source {
   description: string;
@@ -158,8 +159,8 @@ export default function Home() {
                       Analysis Result
                     </h2>
                   </div>
-                  <div className="text-cyan-50/90 leading-relaxed whitespace-pre-wrap">
-                    {answer}
+                  <div className="text-cyan-50/90 leading-relaxed prose prose-invert prose-cyan max-w-none prose-headings:text-cyan-300 prose-strong:text-cyan-200 prose-a:text-cyan-400 prose-code:text-cyan-300">
+                    <ReactMarkdown>{answer}</ReactMarkdown>
                   </div>
                 </div>
               </div>

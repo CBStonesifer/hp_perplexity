@@ -37,7 +37,11 @@ Important:
 - Use multiple sources to provide a well-rounded, balanced answer
 - If sources conflict, acknowledge different perspectives
 - Write 2-4 paragraphs of well-structured, informative content
-- Do NOT include a sources list at the end - just the answer with inline citations`
+- Do NOT include a sources list at the end - just the answer with inline citations
+- Format your response in Markdown with proper headings, bold text, lists, and other formatting as appropriate
+- Use **bold** for emphasis and key terms
+- Use bullet points or numbered lists when presenting multiple items
+- Use proper paragraph breaks for readability`
 
     const prompt = `User's Question: ${query}
 
